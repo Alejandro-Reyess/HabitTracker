@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./assets/background.jpg") center/cover;
+  background-size: 100%;
+
+  color: white;
+
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 48px;
+  width: 100%;
+}
+.MobileLogo {
+  display: none;
+}
+button {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #08660d;
+  background-color: #08660d;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  position: fixed;
+  top: 48px;
+  right: 48px;
+}
+
+button:hover {
+  background: #07490c;
+  border: 1.5px solid #07490c;
+}
+
+form {
+  display: flex;
+
+  padding: 0 48px 48px;
+  width: fit-content;
+}
+
+.habits {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+}
+.habit {
+  width: 64px;
+  height: 64px;
+
+  font-size: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div {
+  margin-bottom: 8px;
+
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  line-height: 125%;
+
+  color: #a1a1aa;
+
+  text-align: center;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 64px;
+  height: 64px;
+
+  border: 2px solid #27272a;
+  border-radius: 8px;
+
+  background: #18181b;
+}
+
+input:hover {
+  background-color: #2b6420;
+  border: 1.5px solid #2b6420;
+}
+
+input:checked {
+  background: #08660d;
+  border: 2px solid #08660d;
+}
+
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .WebLogo {
+    display: none;
+  }
+  .MobileLogo {
+    display: block;
+  }
+}

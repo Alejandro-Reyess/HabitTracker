@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tracking Habits</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="Logo Tracking Habits" class="WebLogo" />
+      <img
+        src="./assets/logo-mobile.svg"
+        alt="Logo Tracking Habits Mobile"
+        class="MobileLogo"
+      />
+    </header>
+    <button>
+      <img src="./assets/plus.svg" alt="Sinal de mais" />
+
+      <div>Registrar meu dia</div>
+    </button>
+
+    <form>
+      <div class="habits">
+        <div class="habit" data-name="run">🏃</div>
+        <div class="habit" data-name="gym">🏋️‍♂️</div>
+        <div class="habit" data-name="basketball">🏀</div>
+        <div class="habit" data-name="water">💧</div>
+        <div class="habit" data-name="study">📚</div>
+        <div class="habit" data-name="work">💼</div>
+        <div class="habit" data-name="code">💻</div>
+        <div class="habit" data-name="study-italian">🇮🇹</div>
+        <div class="habit" data-name="pills">💊</div>
+      </div>
+      <div class="days"></div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
