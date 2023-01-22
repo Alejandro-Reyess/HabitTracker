@@ -1,4 +1,4 @@
-<h1 align="center"> Tracking Habits </h1>
+<h1 align="center"> Habit Tracker </h1>
 
 <br>
 

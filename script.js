@@ -39,7 +39,5 @@ function save() {
   ],
 } */
 
-const data = JSON.parse(localStorage.getItem("MyHabits@Alejandro")) || {}
-
 nlwSetup.setData(data)
 nlwSetup.load()
